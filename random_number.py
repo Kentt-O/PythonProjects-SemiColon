@@ -166,7 +166,9 @@ print(sum_collection(numbers_collection()))
 
 
 def remove_item(sett, number):
-    if number in sett:
+    for _ in range(0, len_of_list(sett)):
+
+
 
 
 
@@ -182,3 +184,23 @@ def is_subset(sett1, sett2):
     return sett1.issubset(sett2)
 
 
+def remove_element_(sett1):
+    return sett1.clear()
+
+
+def max_min(sett2):
+    return f"maximum: {max(sett2)}, minimum: {min(sett2)}"
+
+
+def length_of_seth(sett):
+    count = 0
+    for i in sett:
+        count += 1
+    return count
+
+
+def empty_tup():
+    score = ()
+
+
+def
